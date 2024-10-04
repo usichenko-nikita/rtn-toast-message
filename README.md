@@ -38,7 +38,7 @@ cd ..
 node example/node_modules/react-native/scripts/generate-codegen-artifacts.js \
   --targetPlatform ios \
   --path example/ \
-  --outputPath generated/
+  --outputPath rtn-toast-message/generated/
 ```
 
 ### 4. Install Dependencies in Example
