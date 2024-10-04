@@ -6,11 +6,11 @@ A simple example for displaying toast messages in a React Native app using Turbo
 
 **Android:**
 
-![Android Example](assets/android_example.gif)
+<img src="assets/android_example.gif"/>
 
 **iOS:**
 
-![iOS Example](assets/ios_example.gif)
+<img src="assets/ios_example.gif"/>
 
 ## Installation
 
