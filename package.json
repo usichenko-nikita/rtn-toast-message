@@ -1,0 +1,42 @@
+{
+  "name": "rtn-toast-message",
+  "version": "0.0.1",
+  "description": "A TurboModule for displaying toast messages",
+  "main": "js/index",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-toast-message.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usichenko-nikita/rtn-toast-message.git"
+  },
+  "author": "Nikita Usichenko <nik.usichenko@gmail.com> (https://github.com/usichenko-nikita/rtn-toast-message)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usichenko-nikita/rtn-toast-message/issues"
+  },
+  "homepage": "https://github.com/usichenko-nikita/rtn-toast-message#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNToastMessageSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtntoastmessage"
+    }
+  }
+}
